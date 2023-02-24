@@ -712,5 +712,7 @@ import javax.swing.text.AbstractDocument.BranchElement;
  */
 public class array {
 
-  
+  public static void main(String[] args) {
+    
+  }
 }
