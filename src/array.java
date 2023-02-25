@@ -3,6 +3,7 @@ import java.util.Arrays;
 import java.util.Scanner;
 
 import javax.lang.model.util.ElementScanner14;
+import javax.swing.plaf.basic.BasicBorders.MarginBorder;
 import javax.swing.text.AbstractDocument.BranchElement;
 
 //try
@@ -710,12 +711,113 @@ import javax.swing.text.AbstractDocument.BranchElement;
 /**
  * array
  */
+// public class array {
+//   public static void main(String[] args) {
+//     int[][] arr={
+//       {1, 2, 3, 4, 5},
+//       {6, 7, 8, 9, 10},
+//       {11, 12, 13, 14, 15},
+//       {16, 17, 18, 19, 20}
+//     };
+//     int target=13;
+//     System.out.println(Findelement(arr,target));
+//   }
+//   static int Findelement(int[][] arr,int target ){
+//     int[] newarr= new int[100]; 
+//     System.out.println(arr.length);
+//     for (int i = 0; i < arr.length-1; i++) {
+//       for (int j = 0; j < arr[i].length-1; j++) {
+//         for (int j2 = 0; j2 < 100; j2++) {
+//           newarr[j2]=arr[i][j];
+//         }
+//       }
+//     }
+//     System.out.println(Arrays.toString(newarr));
+//     return -1;
+//   }
+// }
+
+
+
+
+
+
+/**
+ * array
+ */
+// public class array {
+
+//   public static void main(String[]args){
+//     int[][] arr={
+//       {10, 20, 30, 40},
+//       {15, 25, 35, 45},
+//       {28, 29, 37, 49},
+//       {33, 34, 38, 50}
+//     };
+//     int target=35;
+//     System.out.println(Arrays.toString(findinmatrix(arr,target)));
+//   }
+//   static int[] findinmatrix(int[][] nums,int target ){
+//     int r=0;
+//     int c=nums.length-1;
+//     while(r<nums.length && c>=0){
+//       if(nums[r][c]==target){
+//         return new int[]{r,c};
+//       }
+//       if(nums[r][c]<target){
+//         r++;
+//       }
+//       else{
+//         c--;
+//       }
+//     }
+//     return new int[]{-1,-1};
+//   }
+// }
+
+
+
+
+
+/**
+ * array
+ */
+// public class array {
+//   public static void main(String[] args) {
+//     int[][] arr={
+//       {1, 2, 3, 4, 5},
+//       {6, 7, 8, 9, 10},
+//       {11, 12, 13, 14, 15},
+//       {16, 17, 18, 19, 20}
+//     };
+//     int t=13;
+//     System.out.println(Arrays.toString(findinmatrix(arr,t)));
+//   }
+//   static int[] findinmatrix(int[][] matrix,int t){
+//     int r=matrix.length;
+//     int c=matrix[0].length-1;
+//     while(r<matrix.length && c>=0){
+//       if(matrix[r][c]==t){
+//         return new int[]{r,c};
+//       }
+//       else if(matrix[r][c]<t){
+//         r--;
+//       }
+//       else if(matrix[r][c]>t){
+
+//       }
+//     }
+//     return new int[]{-1,-1};
+//   }
+// }
+
+
+//sorting
+/**
+ * array
+ */
 public class array {
-
   public static void main(String[] args) {
-    System.out.println("hello");
-
-
     
   }
 }
